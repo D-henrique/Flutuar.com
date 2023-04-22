@@ -1,15 +1,115 @@
 /*=== RESET ======================*/
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Solid border */
-hr.solid {
-  border-top: 3px solid #eceff2;
+/*=== MAIN ======================*/
+
+/* Image */
+.globo {
+  display: flex;
+  margin: 64px auto 32px;
+  width: 350px;
+  height: 238px;
 }
 
+/* Section */
+h1 {
+  font-family: 'Dosis', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: center;
+  color: #3F3D56;
+
+  margin-bottom: 16px;
+}
+
+h1 span {
+  font-weight: 700;
+  color: #EE24FF;
+}
+
+.text h1 + p {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  
+  text-align: center;
+  
+  color: #828282;
+
+  width: 540px;
+  margin: auto;
+}
+
+.text p span{
+  font-weight: 700;
+  color: #3F3D56;
+}
+
+.text p + p {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+
+  width: 626px;
+  margin: 32px auto 0;
+  
+  color: #828282;
+}
+
+/*=== FOOTER ======================*/
+
+/* Solid border */
+hr.solid {
+  display:flex;
+  border-top: 0px solid #ECEFF2;
+  width: 391px;
+  margin: 64px auto 0;
+}
+
+/* Nav */
+
+nav {
+  margin: 16px auto 41px;
+}
+
+
+ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  font-family: 'Open Sans', sans-serif;
+  gap: 42px;
+  justify-content: center;
+}
+
+a {
+  color: #3F3D56;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  transition: 0.2s;
+}
+
+ul li a:hover {
+  color: #EE24FF;
+  font-size: 20px;
+}
+
+/* Wave */
 .wave {
   position: fixed;
   width: 100vw;
