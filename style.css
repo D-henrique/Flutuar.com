@@ -1,0 +1,17 @@
+/*=== RESET ======================*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Solid border */
+hr.solid {
+  border-top: 3px solid #eceff2;
+}
+
+.wave {
+  position: fixed;
+  width: 100vw;
+  bottom: 0;
+}
